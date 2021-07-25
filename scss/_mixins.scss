@@ -3,11 +3,11 @@
     //style goes here
 }
 
-// 640px, 1024px, 1440px
-$breakpoint-up:("medium": "40em", "large": "64em", "xlarge": "90em");
+// 640px, 860px, 1440px
+$breakpoint-up:("small": "56.25em", "medium": "64em", "large": "90em", "xlarge": "112.5em");
 
 // 639px, 1023px, 1439px
-$breakpoint-down:("small": "39.9375em", "medium": "63.9375", "large": "89.9375");
+$breakpoint-down:("xsmall": "56.1875em", "small": "63.9375em", "medium": "89.9375em", "large": "112.4375em");
 
 @mixin breakpoint-up($size){
     @media (min-width: map-get($breakpoint-up, $size)){
@@ -21,3 +21,5 @@ $breakpoint-down:("small": "39.9375em", "medium": "63.9375", "large": "89.9375")
     }
 }
 
+// 599, 600, 899, 900, 1023, 1024, 1439, 1440, 1799, 1800
+// 37.4375em, 37.5em, 56.1875em, 56.25em, 63.9375em, 64em, 89.9375em, 90em, 112.4375em, 112.5em
