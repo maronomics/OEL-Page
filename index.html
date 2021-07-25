@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   -->
-  <link rel="stylesheet" href="/dist/style.css">
+  <link rel="stylesheet" href="/dist/css/style.css">
 
   <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,12 +52,17 @@
       </a>
 
       <!-- Navigation for Desktop -->
-      <ol>
-        <li class="navitem"><a href="#">Why Open Enterprise</a></li>
-        <li class="navitem"><a href="#">Features</a></li>
-        <li class="navitem"><a href="#">Contribute</a></li>
-        <li class="navitem"><a href="#">Request early access</a></li>
-      </ol>
+      <div class="header__links hide-for-mobile">
+        <a href="#">Why Open Enterprise</a><a href="#">Features</a><a href="#">Contribute</a><a href="#">Request early access</a>
+      </div>
+
+      <div class="header__menu has-fade">
+        <a href="">Why Open Enterprise</a>
+        <a href="">Features</a>
+        <a href="">Contribute</a>
+        <a href="">Request early access</a>
+      </div>
+
     </nav>
   </header>
 
