@@ -88,6 +88,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: #F3F0EA;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.125rem;
   font-weight: 300;
@@ -277,10 +278,8 @@ a, a:visited, a:hover {
 
 .header nav {
   position: relative;
-  background-color: #ffffff;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
-  border-radius: 5rem;
 }
 
 .header__logo img {
@@ -320,6 +319,12 @@ a, a:visited, a:hover {
   padding: 0.625rem;
   color: #303031;
   text-align: center;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.header__menu a:hover {
+  color: #71A894;
 }
 
 .header__links a {
