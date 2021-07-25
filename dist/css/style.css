@@ -271,8 +271,8 @@ a, a:visited, a:hover {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#303031), to(transparent));
-  background-image: linear-gradient(#303031, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F3F0EA), to(transparent));
+  background-image: linear-gradient(#F3F0EA, transparent);
 }
 
 .header nav {
@@ -280,6 +280,7 @@ a, a:visited, a:hover {
   background-color: #ffffff;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
+  border-radius: 5rem;
 }
 
 .header__logo img {
@@ -311,7 +312,7 @@ a, a:visited, a:hover {
   background: #ffffff;
   margin-top: 1.5rem;
   padding: 1.625rem;
-  border-radius: 5px;
+  border-radius: 0.675rem;
 }
 
 .header__menu a {
